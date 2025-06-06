@@ -1,27 +1,69 @@
-# Virtual Camera for Chrome
+# 📹 Virtual Camera for Chrome
 
-## Overview
-"Virtual Camera for Chrome" is a Chrome extension that allows users to create a virtual camera experience directly within their browser. This extension can be used to manipulate video streams and enhance online video interactions.
+> **A modern Chrome extension to create a virtual camera experience in your browser.**
 
-## Features
-- Background script for managing events and communication.
-- Content script for interacting with web pages and manipulating the DOM.
-- User-friendly popup interface for easy access to features.
+---
 
-## Installation
-1. Download the extension files.
-2. Open Chrome and navigate to `chrome://extensions/`.
-3. Enable "Developer mode" by toggling the switch in the top right corner.
-4. Click on "Load unpacked" and select the directory containing the extension files.
-5. The extension should now be visible in your extensions list.
+## ✨ What's New in v1.0.0
 
-## Usage
-- Click on the extension icon in the Chrome toolbar to open the popup interface.
-- Use the available options to configure your virtual camera settings.
+- **Modern UI:** Beautiful, responsive popup interface with drag & drop video upload, animated status, and toast notifications.
+- **Persistent Video State:** Remembers playback position and restores it, even after browser restarts.
+- **IndexedDB Storage:** Videos and settings are stored locally for fast access and privacy.
+- **BroadcastChannel Sync:** Real-time sync of video state and controls across all tabs.
+- **One-click Enable/Disable:** Instantly toggle the virtual camera on or off.
+- **Drag & Drop Support:** Easily load videos by dragging them into the popup.
+- **Clear All Data:** One button to erase all stored videos and settings.
+- **Improved Error Handling:** User-friendly notifications for errors and actions.
+- **Settings (coming soon):** Loop, autoplay, and mute toggles (UI ready).
 
-## Authors
-- Fox3000foxy
-- GitHub Copilot (GPT 4.1)
+---
 
-## License
+## 🚀 Features
+
+- **Virtual Camera Stream:** Replace your webcam with any video file in supported sites.
+- **Popup Controls:** Play, pause, seek, and manage your video directly from the extension popup.
+- **Domain-specific Activation:** The extension only applies to the current domain for privacy.
+- **No External Servers:** All processing and storage are local to your browser.
+
+---
+
+## 🛠️ Installation
+
+1. **Download** or clone this repository.
+2. Open Chrome and go to `chrome://extensions/`.
+3. Enable **Developer mode** (top right).
+4. Click **Load unpacked** and select the extension folder.
+5. The extension icon should now appear in your Chrome toolbar.
+
+---
+
+## 🎬 Usage
+
+1. Click the extension icon to open the popup.
+2. **Load a video** (drag & drop or use the button).
+3. Click **Enable camera** to activate the virtual camera.
+4. Use the video controls to play, pause, or seek.
+5. The extension will remember your position and settings.
+
+---
+
+## 👤 Authors
+
+- [Fox3000foxy](https://github.com/fox3000foxy)
+- GitHub Copilot (GPT 4.1, Claude 3.5 Sonnet)
+
+---
+
+## 📄 License
+
 This project is licensed under the MIT License.
+
+---
+
+## 💡 Notes
+
+- Works best on sites that use `getUserMedia` for webcam access.
+- All video data stays on your device.
+- For feedback or issues, open a GitHub issue.
+
+---
