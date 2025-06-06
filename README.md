@@ -4,6 +4,12 @@
 
 ---
 
+![image](https://github.com/user-attachments/assets/6813f493-00bd-444d-b6db-5990addd730b)
+
+![image](https://github.com/user-attachments/assets/e502f809-dc2f-4973-af81-de81aba5545c)
+
+
+
 ## ✨ What's New in v1.0.0
 
 - **Modern UI:** Beautiful, responsive popup interface with drag & drop video upload, animated status, and toast notifications.
@@ -14,6 +20,7 @@
 - **Drag & Drop Support:** Easily load videos by dragging them into the popup.
 - **Clear All Data:** One button to erase all stored videos and settings.
 - **Improved Error Handling:** User-friendly notifications for errors and actions.
+- **Instancied:** Each domain can handle a different camera. E.g. The camera you use to Instagram is not the same one you use on Discord.  
 - **Settings (coming soon):** Loop, autoplay, and mute toggles (UI ready).
 
 ---
