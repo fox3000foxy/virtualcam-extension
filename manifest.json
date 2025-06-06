@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "Virtual Camera for Chrome",
+  "version": "1.0",
+  "description": "A Chrome extension that simulates a virtual camera for video conferencing and streaming. Authors: Fox3000foxy, GitHub Copilot (GPT 4.1)",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    },
+    {
+      "matches": ["*://*/virtual-camera-interface"],
+      "js": ["popup.js"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/virtual.mp4",
+        "inject-gum.js",
+        "popup/popup.html",
+        "popup/popup.js"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
