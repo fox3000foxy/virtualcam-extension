@@ -68,8 +68,6 @@ This project is licensed under the MIT License.
 
 ---
 
----
-
 ## 🦋 Known Bugs
 
 - Click directly on the video to pause it, do not use the pause button from the seekbar, it will not pause properly the mirrored flux
